@@ -47,6 +47,12 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>fairy-tale_1127414.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
       <HintPath>packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
@@ -139,17 +145,18 @@
     <Compile Include="FormMahasiswa.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FromMenu.vb">
+    <Compile Include="FormMenu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FromMenu.Designer.vb">
-      <DependentUpon>FromMenu.vb</DependentUpon>
+    <Compile Include="FormMenu.Designer.vb">
+      <DependentUpon>FormMenu.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -169,8 +176,8 @@
     <EmbeddedResource Include="FormMahasiswa.resx">
       <DependentUpon>FormMahasiswa.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FromMenu.resx">
-      <DependentUpon>FromMenu.vb</DependentUpon>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -180,6 +187,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -200,6 +208,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\professor_167752.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fairy-tale_1127414.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

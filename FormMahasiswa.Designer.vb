@@ -38,8 +38,8 @@ Partial Class FormMahasiswa
         Me.jenis_kelamin_mahasiswa = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.alamat_mahasiswa = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.searchBox = New System.Windows.Forms.TextBox()
+        Me.filterGender = New System.Windows.Forms.ComboBox()
         Me.txtAlamat = New System.Windows.Forms.TextBox()
         Me.txtEmail = New System.Windows.Forms.TextBox()
         Me.txtTelp = New System.Windows.Forms.TextBox()
@@ -226,8 +226,8 @@ Partial Class FormMahasiswa
         '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.TextBox6)
-        Me.GroupBox3.Controls.Add(Me.ComboBox1)
+        Me.GroupBox3.Controls.Add(Me.searchBox)
+        Me.GroupBox3.Controls.Add(Me.filterGender)
         Me.GroupBox3.Location = New System.Drawing.Point(18, 213)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(388, 60)
@@ -235,23 +235,23 @@ Partial Class FormMahasiswa
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Cari Data"
         '
-        'TextBox6
+        'searchBox
         '
-        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(149, 21)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(227, 23)
-        Me.TextBox6.TabIndex = 1
+        Me.searchBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.searchBox.Location = New System.Drawing.Point(149, 21)
+        Me.searchBox.Name = "searchBox"
+        Me.searchBox.Size = New System.Drawing.Size(227, 23)
+        Me.searchBox.TabIndex = 1
         '
-        'ComboBox1
+        'filterGender
         '
-        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Laki-Laki", "Perempuan", "Lainnya"})
-        Me.ComboBox1.Location = New System.Drawing.Point(7, 21)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(126, 24)
-        Me.ComboBox1.TabIndex = 0
+        Me.filterGender.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.filterGender.FormattingEnabled = True
+        Me.filterGender.Items.AddRange(New Object() {"Laki-Laki", "Perempuan", "Lainnya"})
+        Me.filterGender.Location = New System.Drawing.Point(7, 21)
+        Me.filterGender.Name = "filterGender"
+        Me.filterGender.Size = New System.Drawing.Size(126, 24)
+        Me.filterGender.TabIndex = 0
         '
         'txtAlamat
         '
@@ -423,12 +423,12 @@ Partial Class FormMahasiswa
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents filterGender As ComboBox
     Friend WithEvents radioLainnya As RadioButton
     Friend WithEvents radioPerempuan As RadioButton
     Friend WithEvents radioLaki As RadioButton
     Friend WithEvents DataGridViewMahasiswa As DataGridView
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents searchBox As TextBox
     Friend WithEvents btnExit As Button
     Friend WithEvents btnUndo As Button
     Friend WithEvents btnDelete As Button

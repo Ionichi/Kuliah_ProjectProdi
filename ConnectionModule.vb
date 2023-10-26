@@ -16,9 +16,11 @@ Module ConnectionModule
         Try
             If Not conn Is Nothing Then conn.Close()
             conn.Open()
-            'MessageBox.Show("Connected")
         Catch ex As Exception
-            MessageBox.Show(ex.Message, "Failed connect to server!", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Dim res As DialogResult = MessageBox.Show(ex.Message, "Failed to connect server!", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            If res = 1 Then
+                Application.Exit()
+            End If
         End Try
     End Sub
 

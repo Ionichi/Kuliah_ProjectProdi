@@ -3,10 +3,10 @@ Public Class FormMahasiswa
 
     Private _SIMPAN As Boolean = True
     Private NIM_TEMP As String = ""
-    Private Sub showData()
+    Private Sub showData(filter)
         ConnectionModule.connection()
 
-        dataAdapter = New MySqlDataAdapter("SELECT * FROM tbmahasiswa", conn)
+        dataAdapter = New MySqlDataAdapter($"SELECT * FROM tbmahasiswa WHERE (nim LIKE '%{filter(1)}%' OR nama LIKE '%{filter(1)}%' OR no_telp LIKE '%{filter(1)}%' OR email LIKE '%{filter(1)}%' OR jenis_kelamin LIKE '%{filter(1)}%' OR alamat LIKE '%{filter(1)}%') AND jenis_kelamin LIKE '%{filter(0)}%'", conn)
         dataTable = New DataTable
         dataAdapter.Fill(dataTable)
         DataGridViewMahasiswa.Rows.Clear()
@@ -23,6 +23,12 @@ Public Class FormMahasiswa
         ConnectionModule.disconnection()
     End Sub
 
+    Private Sub processFilterForShowData()
+        Dim keyGender As String = Replace(filterGender.Text, "?", "%")
+        Dim keySearch As String = Replace(searchBox.Text, "?", "%")
+        Dim filter() As String = {keyGender, keySearch} '0 = gender 1 = keyword
+        showData(filter)
+    End Sub
 
     Private Sub btnUndo_Click(sender As Object, e As EventArgs) Handles btnUndo.Click
         txtNIM.Clear()
@@ -36,19 +42,26 @@ Public Class FormMahasiswa
         Me.NIM_TEMP = ""
         btnUpdate.Enabled = False
         btnDelete.Enabled = False
-        txtNIM.Focus()
-        showData()
+        txtNIM.Select()
+
+        processFilterForShowData()
     End Sub
 
     Private Function validation()
         If txtNIM.Text.Length <= 0 Then
             MessageBox.Show("[NIM] belum diisi!")
             Return False
+        ElseIf txtNIM.Text.Length > 9 Then
+            MessageBox.Show("[NIM] Maximal karakter 9!")
+            Return False
         ElseIf txtNama.Text.Length <= 0 Then
             MessageBox.Show("[Nama Lengkap] belum diisi!")
             Return False
         ElseIf txtTelp.Text.Length <= 0 Then
             MessageBox.Show("[No. Telepon] belum diisi!")
+            Return False
+        ElseIf txtTelp.Text.Length > 15 Then
+            MessageBox.Show("[No. Telepon] Maximal karakter 15!")
             Return False
         ElseIf txtEmail.Text.Length <= 0 Then
             MessageBox.Show("[Email] belum diisi!")
@@ -107,7 +120,6 @@ Public Class FormMahasiswa
 
             ConnectionModule.disconnection()
 
-            showData()
             btnUndo_Click(sender, e)
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString(), "Gagal Menyimpan data Mahasiswa!", MessageBoxButtons.OK, MessageBoxIcon.Error)
@@ -221,7 +233,6 @@ Public Class FormMahasiswa
 
                     ConnectionModule.disconnection()
 
-                    showData()
                     btnUndo_Click(sender, e)
                 Catch ex As Exception
                     MessageBox.Show(ex.Message.ToString(), "Gagal Menghapus Data Mahasiswa!", MessageBoxButtons.OK, MessageBoxIcon.Error)
@@ -237,9 +248,14 @@ Public Class FormMahasiswa
 
 
     Private Sub FormMahasiswa_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        txtNIM.Select()
-        showData()
+        btnUndo_Click(sender, e)
     End Sub
 
+    Private Sub searchBox_TextChanged(sender As Object, e As EventArgs) Handles searchBox.TextChanged
+        processFilterForShowData()
+    End Sub
 
+    Private Sub filterGender_SelectedIndexChanged(sender As Object, e As EventArgs) Handles filterGender.SelectedIndexChanged
+        processFilterForShowData()
+    End Sub
 End Class

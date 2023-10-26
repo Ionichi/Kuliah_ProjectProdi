@@ -1,4 +1,5 @@
-﻿Imports System
+﻿Imports System.Resources
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -8,9 +9,9 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("ProjectProdi")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyTitle("ProjectProdi @Ionichi - Feryandi")>
+<Assembly: AssemblyDescription("Created By Ionichi - Feryandi @2023")>
+<Assembly: AssemblyCompany("Ionichi Corp (Feryandi)")>
 <Assembly: AssemblyProduct("ProjectProdi")>
 <Assembly: AssemblyCopyright("Copyright ©  2023")>
 <Assembly: AssemblyTrademark("")>
@@ -32,4 +33,5 @@ Imports System.Runtime.InteropServices
 ' <Assembly: AssemblyVersion("1.0.*")>
 
 <Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyFileVersion("1.2.0.0")>
+<Assembly: NeutralResourcesLanguage("")>

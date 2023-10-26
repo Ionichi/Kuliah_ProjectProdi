@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class FromMenu
+Partial Class FormMenu
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class FromMenu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FromMenu))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormMenu))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.btnShowViewData = New System.Windows.Forms.Button()
@@ -32,8 +32,12 @@ Partial Class FromMenu
         Me.btnShowFormDosen = New System.Windows.Forms.Button()
         Me.btnShowFormMahasiswa = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.copyRight = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.machineName = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -59,7 +63,7 @@ Partial Class FromMenu
         '
         Me.btnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnExit.Image = CType(resources.GetObject("btnExit.Image"), System.Drawing.Image)
-        Me.btnExit.Location = New System.Drawing.Point(79, 547)
+        Me.btnExit.Location = New System.Drawing.Point(79, 538)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.btnExit.Size = New System.Drawing.Size(92, 102)
@@ -163,20 +167,47 @@ Partial Class FromMenu
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'FromMenu
+        'StatusStrip1
+        '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.copyRight, Me.machineName})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 648)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(759, 22)
+        Me.StatusStrip1.TabIndex = 1
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'copyRight
+        '
+        Me.copyRight.Image = CType(resources.GetObject("copyRight.Image"), System.Drawing.Image)
+        Me.copyRight.Name = "copyRight"
+        Me.copyRight.Size = New System.Drawing.Size(16, 17)
+        '
+        'machineName
+        '
+        Me.machineName.Image = CType(resources.GetObject("machineName.Image"), System.Drawing.Image)
+        Me.machineName.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.machineName.Name = "machineName"
+        Me.machineName.Size = New System.Drawing.Size(728, 17)
+        Me.machineName.Spring = True
+        Me.machineName.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'FormMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(759, 670)
+        Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "FromMenu"
+        Me.Name = "FormMenu"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FormMenu"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -191,4 +222,7 @@ Partial Class FromMenu
     Friend WithEvents btnShowFormSidangOutline As Button
     Friend WithEvents btnShowFormOutline As Button
     Friend WithEvents btnExit As Button
+    Friend WithEvents StatusStrip1 As StatusStrip
+    Friend WithEvents copyRight As ToolStripStatusLabel
+    Friend WithEvents machineName As ToolStripStatusLabel
 End Class

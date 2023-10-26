@@ -1,0 +1,92 @@
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\obj\Debug\ProjectProdi.vbproj.AssemblyReference.cache
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\obj\Debug\ProjectProdi.FromMenu.resources
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\obj\Debug\ProjectProdi.Resources.resources
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\obj\Debug\ProjectProdi.vbproj.GenerateResource.cache
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\obj\Debug\ProjectProdi.vbproj.CoreCompileInputs.cache
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\ProjectProdi.exe.config
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\ProjectProdi.exe
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\ProjectProdi.pdb
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\ProjectProdi.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\obj\Debug\ProjectProdi.exe
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\obj\Debug\ProjectProdi.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\obj\Debug\ProjectProdi.pdb
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\obj\Debug\ProjectProdi.FormMahasiswa.resources
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\BouncyCastle.Crypto.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\Google.Protobuf.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\K4os.Compression.LZ4.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\K4os.Hash.xxHash.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\MySql.Data.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Buffers.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.IO.Pipelines.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Memory.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Numerics.Vectors.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\ZstdSharp.dll
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\BouncyCastle.Crypto.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\Google.Protobuf.pdb
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\Google.Protobuf.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\K4os.Compression.LZ4.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\K4os.Hash.xxHash.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\MySql.Data.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Buffers.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.IO.Pipelines.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Memory.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Numerics.Vectors.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\obj\Debug\ProjectProdi.vbproj.CopyComplete
+D:\Kuliah Feryandi\Pemograman Visual\Tugas\ProjectProdi\obj\Debug\ProjectProdi.FormDosen.resources
+E:\ProjectProdi\bin\Debug\ProjectProdi.exe.config
+E:\ProjectProdi\bin\Debug\ProjectProdi.exe
+E:\ProjectProdi\bin\Debug\ProjectProdi.pdb
+E:\ProjectProdi\bin\Debug\ProjectProdi.xml
+E:\ProjectProdi\bin\Debug\BouncyCastle.Crypto.dll
+E:\ProjectProdi\bin\Debug\Google.Protobuf.dll
+E:\ProjectProdi\bin\Debug\K4os.Compression.LZ4.dll
+E:\ProjectProdi\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\ProjectProdi\bin\Debug\K4os.Hash.xxHash.dll
+E:\ProjectProdi\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\ProjectProdi\bin\Debug\MySql.Data.dll
+E:\ProjectProdi\bin\Debug\System.Buffers.dll
+E:\ProjectProdi\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\ProjectProdi\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\ProjectProdi\bin\Debug\System.IO.Pipelines.dll
+E:\ProjectProdi\bin\Debug\System.Memory.dll
+E:\ProjectProdi\bin\Debug\System.Numerics.Vectors.dll
+E:\ProjectProdi\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\ProjectProdi\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\ProjectProdi\bin\Debug\ZstdSharp.dll
+E:\ProjectProdi\bin\Debug\BouncyCastle.Crypto.xml
+E:\ProjectProdi\bin\Debug\Google.Protobuf.pdb
+E:\ProjectProdi\bin\Debug\Google.Protobuf.xml
+E:\ProjectProdi\bin\Debug\K4os.Compression.LZ4.xml
+E:\ProjectProdi\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\ProjectProdi\bin\Debug\K4os.Hash.xxHash.xml
+E:\ProjectProdi\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\ProjectProdi\bin\Debug\MySql.Data.xml
+E:\ProjectProdi\bin\Debug\System.Buffers.xml
+E:\ProjectProdi\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\ProjectProdi\bin\Debug\System.IO.Pipelines.xml
+E:\ProjectProdi\bin\Debug\System.Memory.xml
+E:\ProjectProdi\bin\Debug\System.Numerics.Vectors.xml
+E:\ProjectProdi\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\ProjectProdi\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\ProjectProdi\obj\Debug\ProjectProdi.vbproj.AssemblyReference.cache
+E:\ProjectProdi\obj\Debug\ProjectProdi.FormDosen.resources
+E:\ProjectProdi\obj\Debug\ProjectProdi.FormMahasiswa.resources
+E:\ProjectProdi\obj\Debug\ProjectProdi.FromMenu.resources
+E:\ProjectProdi\obj\Debug\ProjectProdi.Resources.resources
+E:\ProjectProdi\obj\Debug\ProjectProdi.vbproj.GenerateResource.cache
+E:\ProjectProdi\obj\Debug\ProjectProdi.vbproj.CoreCompileInputs.cache
+E:\ProjectProdi\obj\Debug\ProjectProdi.vbproj.CopyComplete
+E:\ProjectProdi\obj\Debug\ProjectProdi.exe
+E:\ProjectProdi\obj\Debug\ProjectProdi.xml
+E:\ProjectProdi\obj\Debug\ProjectProdi.pdb
